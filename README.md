@@ -63,7 +63,7 @@ Navigate to the frontend directory and install dependencies:
 
 bash
 Copy
-cd frontend
+cd FrontEnd
 npm install
 Backend (NestJS):
 
@@ -71,7 +71,7 @@ Navigate to the backend directory and install dependencies:
 
 bash
 Copy
-cd backend
+cd BackEnd
 npm install
 
 3. **Create .env files in both the frontend and backend directories.**
@@ -128,17 +128,16 @@ Here is the directory structure of the project:
 
 ```bash
 creativity-hub/
-├── backend/               # NestJS Backend
+├── BackEnd/               # NestJS Backend
 │   ├── src/               # Source code for the backend
 │   ├── package.json
 │   └── .env               # Backend environment variables (MongoDB URI, JWT secret)
-├── frontend/              # React Frontend
+├── FrontEnd/              # React Frontend
 │   ├── src/               # Source code for the frontend
 │   ├── package.json
 │   └── .env               # Frontend environment variables (API URL)
 ├── docker-compose.yml     # Docker Compose configuration for containers
 ├── README.md              # This file (project description)
-└── .gitignore             # Git ignore file
 
 ```
 ## Acknowledgments
