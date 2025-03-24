@@ -1,0 +1,54 @@
+.signInWrapper {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    align-items: center;
+    justify-content: center;
+}
+
+.signInCard {
+    width: 380px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 500;
+}
+
+.credits {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.appInfo {
+    font-size: 12px;
+    color: #888;
+    margin-right: 3px;
+}
+
+.devInfo {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-right: 3px;
+}
+
+.extraInfo {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}

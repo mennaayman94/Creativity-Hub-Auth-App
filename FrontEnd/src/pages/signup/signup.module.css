@@ -1,0 +1,74 @@
+.signUpWrapper {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    width: 100%;
+  }
+  
+  .leftContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .signUpCard {
+    width: 25rem;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .rightContainer {
+    flex: 1;
+    text-align: center;
+    color: white;
+  }
+  
+  .welcomeText {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .descriptionText {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .credits {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+  
+  .appInfo {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .devInfo {
+    font-size: 1rem;
+    display: block;
+  }
+  
+  .contactInfo {
+    font-size: 1rem;
+    display: block;
+  }
+  
+  .contactInfo a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contactInfo a:hover {
+    text-decoration: underline;
+  }
+  
