@@ -140,8 +140,9 @@ creativity-hub/
 ├── README.md              # This file (project description)
 └── .gitignore             # Git ignore file
 
-
+```
 ## Acknowledgments
+
 MongoDB Atlas for providing the cloud database services.
 
 Postman for API documentation.
