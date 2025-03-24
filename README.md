@@ -53,7 +53,7 @@ Before you begin, ensure that you have the following software installed:
 
    ```bash
    git clone https://github.com/mennaayman94/Creativity-Hub-Auth-App.git
-   cd creativity-hub
+   cd Creativity-Hub-Auth-App
 
 2. **Install Dependencies**
 
