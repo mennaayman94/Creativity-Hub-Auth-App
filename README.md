@@ -94,7 +94,7 @@ ENV=LOCAL
 Replace <your-atlas-uri> with your MongoDB Atlas URI and <your-jwt-secret> with a secret key for JWT.
 I am already attach env variable files and not ignored them
 
-4##. **Run the Application Using Docker Compose**
+4. **Run the Application Using Docker Compose**
 Run the application with Docker Compose. This will start all necessary services (frontend, backend, and MongoDB):
 
 bash
@@ -122,22 +122,24 @@ The backend API is fully documented in Postman. You can view the API documentati
 You can view the API documentation in Postman: [Creativity Hub API Docs on Postman](https://documenter.getpostman.com/view/37770239/2sAYkKGHQg)
 
 
-##Folder Structure
+## Folder Structure
+
 Here is the directory structure of the project:
 
-bash
-Copy
+```bash
 creativity-hub/
-├── BackEnd/               # NestJS Backend
+├── backend/               # NestJS Backend
 │   ├── src/               # Source code for the backend
 │   ├── package.json
 │   └── .env               # Backend environment variables (MongoDB URI, JWT secret)
-├── FrontEnd/              # React Frontend
+├── frontend/              # React Frontend
 │   ├── src/               # Source code for the frontend
 │   ├── package.json
 │   └── .env               # Frontend environment variables (API URL)
 ├── docker-compose.yml     # Docker Compose configuration for containers
 ├── README.md              # This file (project description)
+└── .gitignore             # Git ignore file
+
 
 ## Acknowledgments
 MongoDB Atlas for providing the cloud database services.
