@@ -80,9 +80,9 @@ This will build and run the Docker containers for the frontend, backend, and Mon
 ## Running the Application
 Once Docker Compose is running, the application will be available at:
 
-Frontend (React): http://localhost:3000
+Frontend (React): http://localhost:5173
 
-Backend (NestJS API): http://localhost:5000
+Backend (NestJS API): http://localhost:3002
 
 ## Authentication Flow
 Sign Up: Users can create a new account by providing their email and password.
