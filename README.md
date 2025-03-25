@@ -61,45 +61,20 @@ Frontend (React):
 
 Navigate to the frontend directory and install dependencies:
 
-bash
-Copy
 cd FrontEnd
 npm install
 Backend (NestJS):
 
 Navigate to the backend directory and install dependencies:
 
-bash
-Copy
 cd BackEnd
 npm install
 
-3. **Create .env files in both the frontend and backend directories.**
 
-
-Frontend .env Example:
-
-env
-Copy
-VITE_ENV=LOCAL
-VITE_BASE_URL=http://localhost:3002
-Backend .env Example:
-
-env
-Copy
-DATABASE_URI=mongodb+srv://<your-atlas-uri>
-SECRET_KEY=<your-jwt-secret>
-PORT=3002
-ENV=LOCAL
-Replace <your-atlas-uri> with your MongoDB Atlas URI and <your-jwt-secret> with a secret key for JWT.
-I am already attach env variable files and not ignored them
-
-4. **Run the Application Using Docker Compose**
+3. **Run the Application Using Docker Compose**
 Run the application with Docker Compose. This will start all necessary services (frontend, backend, and MongoDB):
 
-bash
-Copy
-docker-compose up
+docker compose up -d
 This will build and run the Docker containers for the frontend, backend, and MongoDB.
 
 ## Running the Application
