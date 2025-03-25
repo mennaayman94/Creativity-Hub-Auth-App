@@ -74,40 +74,21 @@ Copy
 cd backend
 npm install
 
-3. **Create .env files in both the frontend and backend directories.**
 
-
-Frontend .env Example:
-
-env
-Copy
-VITE_ENV=LOCAL
-VITE_BASE_URL=http://localhost:3002
-Backend .env Example:
-
-env
-Copy
-DATABASE_URI=mongodb+srv://<your-atlas-uri>
-SECRET_KEY=<your-jwt-secret>
-PORT=3002
-ENV=LOCAL
-Replace <your-atlas-uri> with your MongoDB Atlas URI and <your-jwt-secret> with a secret key for JWT.
-I am already attach env variable files and not ignored them
-
-4##. **Run the Application Using Docker Compose**
+3. **Run the Application Using Docker Compose**
 Run the application with Docker Compose. This will start all necessary services (frontend, backend, and MongoDB):
 
 bash
 Copy
-docker-compose up
+docker compose up -d
 This will build and run the Docker containers for the frontend, backend, and MongoDB.
 
 ## Running the Application
 Once Docker Compose is running, the application will be available at:
 
-Frontend (React): http://localhost:3000
+Frontend (React): http://localhost:5173
 
-Backend (NestJS API): http://localhost:5000
+Backend (NestJS API): http://localhost:3002
 
 ## Authentication Flow
 Sign Up: Users can create a new account by providing their email and password.
